@@ -1,4 +1,7 @@
 public class IntEqualityPrinter {
+    public static void main(String[] args) {
+        printEqual(12,12,-9);
+    }
 
     public static void printEqual(int num1, int num2, int num3){
         if(num1<0 || num2<0 || num3<0){
