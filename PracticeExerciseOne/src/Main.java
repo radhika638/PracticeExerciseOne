@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        SpeedConverter.printConversion(10.5);
+         SpeedConverter.printConversion(10.5);
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(3000);
 
@@ -54,5 +54,13 @@ public class Main {
         }
 
         MinutesToYearsAndDay.printYearsAndDays(51951529895L);
+
+        boolean isCatPlaying = PlayingCat.isCatPlaying(false, 35);
+        if(isCatPlaying){
+            System.out.println("True");
+        }
+        else {
+            System.out.println("False");
+        }
     }
 }
