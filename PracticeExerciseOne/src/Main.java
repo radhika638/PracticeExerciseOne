@@ -62,5 +62,9 @@ public class Main {
         else {
             System.out.println("False");
         }
+
+        NumberInWord.printNumberInWord(54954);
+
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 9000));
     }
 }
