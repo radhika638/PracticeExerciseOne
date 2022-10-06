@@ -13,7 +13,7 @@ public class Main {
             System.out.println("No need to wake up");
         }
 
-        boolean isLeapYear = LeapYear.isLeapYear(2000);
+        boolean isLeapYear = LeapYear.isLeapYear(9000);
         if(isLeapYear){
             System.out.println("It is leap year");
         }
